@@ -10,11 +10,15 @@
 }
 
 :root{
-    --bg-color: #fff;
     /* --text-color: #22100d; */
+    --bg-color: #fff;
     --text-color: #23293f;
     --second-color: #685f78;
     --main-color: #f66962;
+    --main-color: #f67162;
+    --main-color: #f78869;
+
+
     --big-font: 3.8rem;
     --h2-font: 2.6rem;
     --p-font: 1. Irem;
@@ -92,13 +96,13 @@ section,footer{
     color: var(--main-color);
 }
 
-/* #menu-icon{
+#menu-icon{
     font-size: 28px;
     color: var(--text-color);
     z-index: 10001;
     cursor: pointer;
     display: none;
-} */
+}
 
 header.sticky{
     background:var(--bg-color);
@@ -203,13 +207,7 @@ header.sticky{
     }
 }
 
-.about-us h2 {
-    color: var(--second-color);
-    font-size: 28px;
-    margin-bottom: 20px;
-    text-align: center;
-    animation: slideIn 0.5s forwards;
-}
+
 
 @keyframes slideIn {
     from {
@@ -221,6 +219,14 @@ header.sticky{
         transform: translateY(0);
         opacity: 1;
     }
+}
+
+.about-us h2 {
+    color: var(--second-color);
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    animation: slideIn 0.5s forwards;
 }
 
 .about-us p {
